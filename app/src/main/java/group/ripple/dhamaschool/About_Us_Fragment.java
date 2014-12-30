@@ -37,7 +37,7 @@ public class About_Us_Fragment extends Fragment implements View.OnClickListener 
         osl.setOnClickListener(this);
 
 
-
+           // osl.setClickable(true);
 
 
         return v;

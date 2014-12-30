@@ -1,6 +1,5 @@
 package group.ripple.dhamaschool;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
