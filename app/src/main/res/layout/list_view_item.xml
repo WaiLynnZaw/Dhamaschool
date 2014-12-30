@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/card_background_sqr_white"
+    >
+
+    <TextView
+        android:id="@+id/txtSummery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgThumb_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imgThumb_layout"
+        android:layout_toLeftOf="@+id/imgThumb_layout"
+        android:lines="3"
+        android:padding="4dp"
+        android:textSize="14dp"
+        android:text=""
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/listItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:lines="2"
+        android:padding="4dp"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/imgThumb_layout"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listItemTitle"
+        android:layout_marginRight="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="1dp"
+        android:src="@drawable/ic_launcher" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="7dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView1"
+            android:background="#80a3a3a3" >
+
+            <ImageView
+                android:id="@+id/imgThumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dhammaschool_background_white" />
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_below="@+id/txtSummery"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

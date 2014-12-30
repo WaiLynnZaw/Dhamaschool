@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Swipe Refresh Colors-->
+  <color name="swipe_refresh_color1">#ff0f9d58</color>
+  <color name="swipe_refresh_color2">#ffdb4437</color>
+  <color name="swipe_refresh_color3">#ff4285f4</color>
+  <color name="swipe_refresh_color4">#fff4b400</color>
+
+  <!--Style Colors-->
+  <color name="title_text_color">#ff7a7979</color>
+  <color name="content_text_color">#ff444444</color>
+  <color name="param_link">#ff3f42a5</color>
+  <color name="background">#ffc4c4c4</color>
+  <color name="share_text_color">#ff5d5d5d</color>
+
+  <!--Actionbar Colors-->
+  <color name="actionbar_text">#ffffffff</color>
+  <color name="primary">#009688</color>
+  <color name="primary_dark">#00695C</color>
+
+
+
+
+
+
+</resources>

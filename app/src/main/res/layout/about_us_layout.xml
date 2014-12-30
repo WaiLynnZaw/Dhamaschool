@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image"
+        android:background="#77000000"
+        android:paddingBottom="14dip"
+        android:paddingLeft="8dip"
+        android:paddingTop="14dip"
+        android:text="Ripple Team"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/image"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center"
+                android:layout_gravity="center_horizontal|center"
+                android:textStyle="bold"
+                android:textColor="#0088ff"
+                android:layout_weight="1"
+                android:text="Dhamma School Foundation\nFacebook News Feeds App \nVersion 1.0\n 
+                "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal|center"
+                android:layout_gravity="center_horizontal|center"
+                android:textColor="#0088ff"
+                android:text="Donated by Ripple Myanmar Team"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/osl"
+                android:gravity="center_horizontal|center"
+                android:textStyle="italic"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="5dp"
+                android:text="Open Source Licenses "/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="15dp"
+            android:text="Contact Us Via ..."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/facebook"
+                android:layout_weight="1"
+                android:tag="https://m.facebook.com/pages/Ripple/1523968501220944"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/mail"
+                android:layout_weight="1"
+                android:tag="ripplemyanmar@gmail.com"
+                android:src="@drawable/mail" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:id="@+id/contact_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+
+        android:id="@+id/contact_add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+
+        android:textColor="#00f"
+        android:drawablePadding="@dimen/abc_action_bar_default_height_material"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5dp"
+        android:textColor="#00f"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5dp"
+        android:textColor="#00f"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5dp"
+        android:textColor="#00f"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5dp"
+        android:textColor="#00f"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="5dp"
+        android:textColor="#00f"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ph6" />
+
+
+</LinearLayout>
