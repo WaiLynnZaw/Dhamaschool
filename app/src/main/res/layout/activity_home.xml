@@ -22,7 +22,7 @@
         android:layout_gravity="start"
         android:background="@android:color/white"
         android:choiceMode="singleChoice"
-
+        android:headerDividersEnabled="true"
         android:drawSelectorOnTop="false">
     </ListView>
 
